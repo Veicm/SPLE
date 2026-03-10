@@ -138,6 +138,7 @@ This project uses pre-commit as defined in `.pre-commit-config.yaml`.
 Install the Git hooks:
 
 ```bash
+uv run pre-commit autoupdate
 uv run pre-commit install
 ```
 

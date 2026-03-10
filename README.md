@@ -4,7 +4,7 @@
 [![GitHub License](https://img.shields.io/github/license/Veicm/SPLE?style=flat&color=%237f3403)](https://github.com/Veicm/SPLE?tab=Apache-2.0-1-ov-file#readme)
 
 [![GitHub Release](https://img.shields.io/github/v/release/Veicm/SPLE?display_name=tag&style=flat&label=GitHub%20Release&color=%233e85e0)](https://github.com/Veicm/SPLE/releases/latest)
-[![PyPI - Version](https://img.shields.io/pypi/v/spl-engine?style=flat&label=PyPi%20Release&color=%23ffdc4e)](https://pypi.org/project/spl-engine/)
+[![PyPI - Version](https://img.shields.io/pypi/v/sple_engine?style=flat&label=PyPi%20Release&color=%23ffdc4e)](https://pypi.org/project/sple_engine/)
 
 # SPLE - Simple Physics Engine
 
@@ -15,9 +15,8 @@ SPLE (Simple Physics Engine) is a lightweight Python library for simulating basi
 #### Stable Release (Recommended):
 
 ```shell
-pip install spl-engine
+pip install sple_engine
 ```
-
 
 #### Rolling-release (only for development purposes):
 
@@ -25,13 +24,11 @@ pip install spl-engine
 pip install git+https://github.com/Veicm/SPLE.git
 ```
 
-
 #### Version-Specific Installation:
 
 ```shell
-pip install spl-engine==0.0.2
+pip install sple_engine==0.0.2
 ```
-
 
 > or any other version instead of `0.0.2`.
 
