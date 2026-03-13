@@ -436,7 +436,7 @@ wheels = [
 ]
 
 [[package]]
-name = "sple-physics"
+name = "sple"
 version = "0.0.1"
 source = { editable = "." }
 
