@@ -1,24 +1,21 @@
-name: Publish Python Package
+name: Publish to PyPI
 
 on:
   release:
     types: [published, edited]
 
 permissions:
-  contents: read
   id-token: write
+  contents: read
 
 jobs:
-  build:
-    name: Build distribution
+  build-and-publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -30,29 +27,5 @@ jobs:
       - name: Build package
         run: python -m build
 
-      - name: Store distributions
-        uses: actions/upload-artifact@v4
-        with:
-          name: python-package-distributions
-          path: dist/
-
-  publish:
-    name: Publish to PyPI
-    needs: build
-    runs-on: ubuntu-latest
-
-    environment:
-      name: pypi
-      url: https://pypi.org/project/YOURPROJECT/
-
-    steps:
-      - name: Download distributions
-        uses: actions/download-artifact@v4
-        with:
-          name: python-package-distributions
-          path: dist/
-
-      - name: Publish package to PyPI
+      - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          packages-dir: dist/
