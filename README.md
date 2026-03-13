@@ -27,10 +27,10 @@ pip install git+https://github.com/Veicm/SPLE.git
 #### Version-Specific Installation:
 
 ```shell
-pip install sple-engine==0.0.3
+pip install sple-engine==0.0.1
 ```
 
-> or any other version instead of `0.0.3`.
+> or any other version instead of `0.0.1`.
 
 ## Usage
 

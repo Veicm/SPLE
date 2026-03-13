@@ -437,7 +437,7 @@ wheels = [
 
 [[package]]
 name = "sple"
-version = "0.0.3"
+version = "0.0.1"
 source = { editable = "." }
 
 [package.optional-dependencies]
