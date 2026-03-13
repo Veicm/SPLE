@@ -1,5 +1,5 @@
 [project]
-name = "sple"
+name = "sple-engine"
 version = "0.0.1"
 description = "SPLE - Simple Physics Engine"
 authors = [{ name = "Veicm" }]
