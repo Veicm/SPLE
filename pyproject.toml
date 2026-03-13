@@ -1,6 +1,6 @@
 [project]
 name = "sple"
-version = "0.0.1"
+version = "0.0.3"
 description = "SPLE - Simple Physics Engine"
 authors = [{ name = "Veicm" }]
 readme = "README.md"
