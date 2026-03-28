@@ -168,7 +168,7 @@ Use clear and descriptive branch names.
 
 ---
 
-## 9. Make Changes
+## 10. Make Changes
 
 - Follow the existing `src/` layout.
 - Add or update tests in the `tests/` directory.
@@ -178,7 +178,7 @@ Use clear and descriptive branch names.
 
 ---
 
-## 10. Commit Your Changes
+## 11. Commit Your Changes
 
 Stage changes:
 
@@ -196,7 +196,7 @@ Keep commits atomic and descriptive.
 
 ---
 
-## 11. Sync With Upstream
+## 12. Sync With Upstream
 
 Before pushing, rebase onto the latest upstream main branch:
 
@@ -209,7 +209,7 @@ Resolve conflicts if necessary.
 
 ---
 
-## 12. Push to Your Fork
+## 13. Push to Your Fork
 
 ```bash
 git push origin feature/<short-description>
@@ -217,7 +217,7 @@ git push origin feature/<short-description>
 
 ---
 
-## 13. Open a Pull Request
+## 14. Open a Pull Request
 
 1. Navigate to your fork on GitHub.
 2. Open a Pull Request targeting the original repository's `main` branch.
@@ -230,7 +230,7 @@ Ensure all CI checks pass before requesting review.
 
 ---
 
-## 14. Build the Package (Optional)
+## 15. Build the Package (Optional)
 
 To build distribution artifacts locally:
 
